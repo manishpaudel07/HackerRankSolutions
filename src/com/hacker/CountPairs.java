@@ -20,7 +20,7 @@ public class CountPairs {
 
 		for (int i = 0; i < t; i++) {
 			pairs.add(pairLeft[i] + "," + pairRight[i]);
-			// System.out.println(pairs);
+			System.out.println(pairs);
 			System.out.println(pairs.size());
 
 		}
