@@ -36,6 +36,7 @@ public class InstanceOf {
 			if (input.equals("Students"))arrayList.add(new Student());
 			if (input.equals("Rockstar")) arrayList.add(new Rockstar());
 			if (input.equals("Hacker"))arrayList.add(new Hacker());
+			System.out.print("done");
 		}
 		System.out.println(count(arrayList));
 	}
