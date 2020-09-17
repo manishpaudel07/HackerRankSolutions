@@ -3,10 +3,11 @@ package com.hacker.thirtydayscode;
 public class Person {
 	 private int age;	
 	  
-		public Person(int initialAge) {
+		public Person(int initialAge) 
+		{
 	        if (initialAge >0)
 	        {
-	  		initialAge=this.age;
+	  		this.age=initialAge;
 		}
 	    else if (initialAge<0)
 	    {
@@ -20,7 +21,7 @@ public class Person {
 	        {
 	        System.out.println("You are young.");
 	        }
-	    else if (age>=13 && age<20)
+	    else if (age>=13 && age<18)
 	    {
 	        System.out.println("You are a teenager."); 
 	    }
