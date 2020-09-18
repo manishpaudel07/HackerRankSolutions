@@ -31,10 +31,9 @@ public class FindMax {
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] == findElement) {
 				// 1 !=3
-			result=1;
-			}
-			else
-				result=-1;
+				result = 1;
+			} else
+				result = -1;
 
 		}
 		return result;
@@ -55,7 +54,7 @@ public class FindMax {
 		System.out.println("the maximum element of the array is:" + findMaxArray(arr));
 		System.out.println("the minimum element of the array is:" + findMinArray(arr));
 		int result = searchArray(arr, findElement);
-		if (result ==-1) {
+		if (result == -1) {
 			System.out.println("the searched element " + findElement + " of the array is not found:");
 		} else
 			System.out.println("the  searched element " + findElement + " of the array is  found:");
